@@ -231,6 +231,10 @@ body {
     }
 }
 
+
+
+
+
 @media (max-width: 768px) {
     .navbar {
         padding: 1rem;
@@ -624,5 +628,144 @@ body {
   
   .contact-form {
     padding: 1.5rem;
+  }
+}
+
+
+/* deep seek code for new about */
+
+/* Add to your existing CSS */
+.values-list {
+  list-style-type: none;
+  color: #666;
+  line-height: 1.7;
+}
+
+.values-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.values-list li::before {
+  content: "•";
+  color: #4BC2BA;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -0.2rem;
+}
+
+/* Adjust the vm-card for better spacing */
+.vm-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Make sure the cards have equal height */
+.vision-mission {
+  align-items: stretch;
+}
+/* Deep Seek end code about */
+
+
+
+
+/* this is for serive given by ds */
+/* Add to your existing CSS */
+.services-subtitle {
+  color: #55518E;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-weight: 500;
+}
+
+.service-list {
+  list-style-type: none;
+  margin-top: 0.8rem;
+  text-align: left;
+  padding-left: 0;
+}
+
+.service-list li {
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.service-list li::before {
+  content: "•";
+  color: #4BC2BA;
+  position: absolute;
+  left: 0;
+}
+
+.product-range {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 1.5rem auto;
+  max-width: 800px;
+}
+
+.product-category {
+  flex: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .product-range {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .services-subtitle {
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+}
+
+/* end of service section */
+
+
+/* Back to Home Button */
+.back-to-home-section {
+  padding: 1rem 2rem 0;
+}
+
+.back-to-home-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #55518E;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.back-to-home-btn:hover {
+  color: #4BC2BA;
+  background-color: rgba(75, 194, 186, 0.1);
+  transform: translateX(-3px);
+}
+
+.back-to-home-btn i {
+  transition: transform 0.3s;
+}
+
+.back-to-home-btn:hover i {
+  transform: translateX(-3px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .back-to-home-section {
+    padding: 1rem 1.5rem 0;
   }
 }
