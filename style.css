@@ -145,6 +145,7 @@ body {
     font-size: clamp(5.5rem, 10vw, 15.5rem);
     line-height: 1.2;
     font-family: "Bebas Neue", sans-serif;
+    margin-bottom: -40px;
 }
 
 .hero-content h1 .part2 {
@@ -793,7 +794,7 @@ body {
 .about-link {
   display: inline-block;
   padding: 0.8rem 1.5rem;
-  background-color: #4BC2BA;
+  background-color: #55518E;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -805,7 +806,7 @@ body {
 }
 
 .about-link:hover {
-  background-color: #55518E;
+  background-color:#4BC2BA;
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
@@ -1247,7 +1248,7 @@ body {
     justify-content: space-around;
     gap: 20px;
     padding: 40px 20px;
-    background-color:#55518E;
+    background-color:#4BC2BA;
     font-family: 'Arial', sans-serif;
 }
 
